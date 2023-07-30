@@ -1,0 +1,144 @@
+
+.detailsPage_Container {
+  display: flex;
+  gap: 1.5%;
+  margin: 3rem 0;
+}
+.details {
+  width: 62%;
+  display: flex;
+  flex: 0 0 auto;
+  word-wrap: break-word;
+  background-clip: initial;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  flex-direction: column;
+  position: relative;
+  padding: 20px;
+}
+.details img {
+  width: 100%;
+  height: 500px;
+}
+
+.detailTitle {
+  margin-top: 0px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.detailDate {
+  background-color: #eee;
+  margin-bottom: 1rem;
+  width: 110px;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  font-weight: 500;
+  text-align: center;
+}
+.detailData {
+  font-size: 16px;
+}
+
+.detailIcon {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.detailIcon img {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+/* ---------------------------------left-side */
+.donate_box {
+  width: 30%;
+  flex: 0 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+}
+.DetailInput {
+  outline: none;
+  background-color: initial;
+  border: 1px solid #8dc63f;
+  border-radius: 5px;
+  color: #666;
+  padding: 15px 10px !important;
+}
+.DetailBtn {
+  outline: none;
+  background-color: initial;
+  background: #8dc63f;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  margin: 10px 0px;
+  padding: 15px !important;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+.donate_box span{
+    font-size: 13px;
+    color: #0d6db7;
+}
+
+
+@media screen and (max-width: 768px){
+    .detailsPage_Container {
+        display: flex;
+        flex-direction: column;
+      }
+      .details {
+        width: 90%;
+        margin-bottom: 1rem;
+      }
+      .donate_box {
+        width: 90%;
+      }
+}
+
+@media screen and (max-width: 468px){
+    .detailsPage_Container {
+        display: flex;
+        flex-direction: column;
+      }
+      .details {
+        width: 88%;
+      }
+      .donate_box {
+        width: 88%;
+        height: auto;
+      }
+      .details img {
+        height: 220px;
+      }
+      .detailTitle {
+        font-size: 18px;
+      }
+      .detailData {
+        font-size: 13px;
+      }
+      
+      .detailIcon {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+      }
+      .detailIcon img {
+        width: 25px;
+        height: 25px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+}

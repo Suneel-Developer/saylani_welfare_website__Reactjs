@@ -1,0 +1,320 @@
+.heading {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 1.5rem;
+}
+.main_container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+.main_container .content {
+  flex: 1 1 30rem;
+}
+
+.content_heading {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.23;
+  text-align: left;
+}
+.green_theme {
+  color: #8dc63f;
+}
+.animated_heading {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 0.5em;
+}
+.typed_curser {
+  color: #0d6db7;
+}
+.sub_heading {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.85);
+  word-break: break-word;
+}
+.slide_button {
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  background-color: #fff !important;
+  border: 1px solid #424242 !important;
+  color: #424242 !important;
+  padding: 12px 15px !important;
+  font-size: 10px;
+}
+.slide_button i {
+  margin-left: 7px;
+}
+.main_container .image {
+  flex: 1 1 30rem;
+}
+.main_container .image img {
+  width: 100%;
+  height: 520px;
+  object-fit: contain;
+}
+
+/* -----------upcoming-project */
+
+.project_container {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.upcoming_project_picture {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.upcoming_picture_box {
+  position: relative;
+  width: 100%;
+}
+.upcoming_picture_box img {
+  border-top-left-radius: 100px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+  height: 100%;
+  margin-bottom: 20px;
+  object-fit: cover;
+  width: 100%;
+}
+.upcoming_picture_box .upcoming_text_box {
+  align-items: center;
+  background-color: #8dc63f !important;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-top-left-radius: 60px;
+  display: flex;
+  height: 50%;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  width: 50%;
+}
+.upcoming_picture_box .upcoming_text_box .upcoming_text-heading {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 1.35;
+}
+.upcoming_picture_box .upcoming_text_box_transparent_1 {
+  background-color: initial;
+  border-bottom: 1px solid #fff;
+  border-top-right-radius: 100px;
+  height: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+}
+.upcoming_picture_box .upcoming_text_box_transparent_2 {
+  background-color: initial;
+  border-left: 1px solid #fff;
+  bottom: 0;
+  height: 50%;
+  position: absolute;
+  right: 0;
+  width: 50%;
+}
+
+/* -----------upcoming-project-details */
+.project_details {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.project_details .project_details_heading {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 0rem;
+}
+.project_details_items {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.2rem;
+}
+.project_details_items_image {
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  margin-right: 20px;
+}
+.project_details_items_image img {
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+}
+.project_details_items_head {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0rem;
+}
+.project_details_items_head_title {
+  color: #0d6db7 !important;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-top: 0px;
+  margin-bottom: 0.3rem;
+}
+.project_details_items_head_text {
+  color: rgba(0, 0, 0, 0.85);
+  word-break: break-word;
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+/* ------------------------------------------- Banner */
+
+.banner .banner_image {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.banner .banner_image img {
+  width: 100%;
+  height: 500px;
+}
+
+/* --------------------------------- funding_Container */
+
+.funding_Container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+/* -------------------------------------------------------- counter_Container */
+
+.counterBoxes {
+  background-color: #0d6db7;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 2rem;
+  padding: 5rem 0px;
+  text-align: center;
+  margin: 3rem 0;
+}
+.counterBoxes::before {
+  background-image: url(../../assets/footerBackground.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.counterBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgBox {
+  background-color: #fff;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.imgBox img {
+  height: 50%;
+  object-fit: contain;
+  width: 50%;
+}
+.counterBox h1{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.counterBox span{
+  color: #fff;
+}
+
+
+
+
+
+@media screen and (max-width: 1168px) {
+  .main_container .content {
+    flex: 1 1 20rem;
+  }
+  .main_container .image {
+    flex: 1 1 20rem;
+  }
+  .project_container {
+    display: block;
+  }
+  .upcoming_project_picture {
+    width: 100%;
+  }
+  .project_details {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main_container {
+    padding-top: 1rem;
+  }
+  .main_container .image img {
+    display: none;
+  }
+  .content_heading {
+    font-size: 30px;
+  }
+  .animated_heading {
+    font-size: 17px;
+  }
+  .sub_heading {
+    font-size: 13px;
+  }
+  .slide_button {
+    padding: 11px 30px !important;
+  }
+  .project_details_items_head_title {
+    font-size: 14px;
+  }
+  .project_details_items_head_text {
+    font-size: 12px;
+  }
+  .upcoming_picture_box .upcoming_text_box {
+    border-top-left-radius: 20px;
+  }
+  .upcoming_picture_box .upcoming_text_box .upcoming_text-heading {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .banner .banner_image img {
+    width: 100%;
+    height: 200px;
+  }
+  .funding_Container {
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    grid-gap: 0.5rem;
+  }
+}

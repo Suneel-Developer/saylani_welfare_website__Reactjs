@@ -1,0 +1,133 @@
+.about_Container {
+  max-width: 82%;
+  margin: auto;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+}
+.heading_Container {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  gap: 3rem;
+}
+
+.about_details {
+  flex: 1;
+}
+.about_details h4 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 20px;
+  color: #666;
+}
+.about_details h1 {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+.about_details p {
+  color: #666;
+  font-size: 1rem;
+}
+.aboutImage {
+  flex: 1;
+}
+.aboutImage img {
+  width: 100%;
+  height: 350px;
+}
+
+.details_Container h1{
+    color: rgba(0, 0, 0, 0.85);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+.details_Container p {
+    color: #666;
+    font-size: 1rem;
+  }
+
+
+  /* ------------------------timeline  */
+  .about_timeline{
+    margin-top: 3rem;
+  }
+  .timeline{
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 2rem; */
+  }
+  .timeline_heading{
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .timeline_heading .dotIcon{
+    width: 10px;
+    height: 10px;
+    background-color: #8dc63f;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+  }
+  .timeline_heading .heading_title{
+    font-size: 1.2rem;
+    margin-left: 2rem;
+  }
+  .timeline_details{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1rem;
+    padding: 2rem 1rem;
+    border-left: 1px solid #666;
+    margin-left: .2rem;
+    /* margin-top: 1rem; */
+  }
+  .timeline_details .details_data{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+.details_Icon{
+    background-color: #d1e3f1;
+    color: #0d6db7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+}
+.details_heading{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .about_Container {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 568px) {
+  .heading_Container {
+    display: block;
+  }
+
+  .about_details p {
+    font-size: 0.9rem;
+  }
+
+  .aboutImage img {
+    height: 300px;
+  }
+  .details_Container p {
+    font-size: .8;
+  }
+
+
+}

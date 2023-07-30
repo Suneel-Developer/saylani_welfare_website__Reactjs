@@ -1,0 +1,25 @@
+.bankdetails_banner{
+    background-image: url(../../assets/bankdetails_Banner.avif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.accordinBoxs{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.accordin{
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+}

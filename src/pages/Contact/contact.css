@@ -1,0 +1,117 @@
+.contact_banner{
+    background-image: url(../../assets/contactbackground.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+.branchesBackground{
+    background-image: url(../../assets/branchesBackground.webp);
+}
+.secondarybtn{
+    border: none;
+    outline: none;
+    color: #0d6db7;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.35;
+    background-color: hsla(0,0%,100%,.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+    padding: 10px 50px;
+    z-index: 11;
+}
+.contact{
+    display: flex;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.inputFields{
+    width: 50%;
+}
+.locationMap{
+    width: 50%;
+}
+.locationMap iframe{
+    width: 100%;
+    height: 550px;
+    border: none;
+    border-radius: 7px;
+}
+.userName_Fields{
+    display: flex;
+    gap: 1rem;
+}
+.userName_Fields .input_fields{
+    width: 50%;
+}
+.input_fields{
+    gap: .5rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+label{
+    color: #0d6db7!important;
+}
+.input_fields input, textarea{
+    background-color: initial;
+    outline: none;
+    border: 1.5px solid #8dc63f;
+    border-radius: 5px;
+    color: #666;
+    padding: 15px!important;
+    font-size: 14px;
+    line-height: 1.5715;
+}
+.contactBtn{
+    background-color: #0d6db7;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 1.2;
+    border-radius: 5px;
+}
+
+
+
+
+@media screen and (max-width:768px){
+    .contact{
+        display: block;
+        margin-top: 2rem;
+        gap: 2rem;
+    }
+    .inputFields{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .locationMap{
+        width: 100%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:468px){
+    .secondarybtn{
+        font-size: 20px;
+        padding: 10px 30px;
+    }
+    .userName_Fields{
+        display: block;
+        gap: 1rem;
+    }
+    .userName_Fields .input_fields{
+        width: 100%;
+    }
+}

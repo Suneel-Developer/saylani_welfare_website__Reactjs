@@ -1,0 +1,59 @@
+.pagination_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-gap: 2rem;
+  margin-top: 3rem;
+}
+.pBox {
+  word-wrap: break-word;
+  background-clip: initial;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+.locationIcon {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.title {
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+.location {
+  margin: 0px;
+}
+.contactNum {
+  margin: 2px;
+}
+.systemBtn {
+  background-color: #8dc63f !important;
+  padding: 1px 20px;
+  border-radius: 100px;
+  color: #fff;
+  line-height: 20px;
+  font-size: 13px;
+  margin: 0px;
+}
+.paginationBoxShape {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 568px) {
+  .pagination_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .pBox {
+    width: 100%;
+  }
+}

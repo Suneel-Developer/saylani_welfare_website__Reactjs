@@ -1,0 +1,62 @@
+.topHeader_container{
+    background: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+}
+.topHeader_contact {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.header_contact{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.topHeader_contact i{
+    font-size: 1rem;
+    color: #333;
+    
+}
+.topHeader_contact a{
+    font-size: .8rem;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.language_button{
+    background-color: #ffffff;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0px 20px;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .topHeader_container{
+        height: auto;
+    }
+    .topHeader_contact {
+        display: block;
+    }
+    .language_button{
+        padding: 10px 20px;
+    }
+    .topHeader_contact i{
+        font-size: .8rem;
+        color: #333;
+        margin-bottom: 5px;
+        
+    }
+    .topHeader_contact a{
+        font-size: .5rem;
+        color: #333;
+        text-decoration: none;
+        font-weight: 500;
+    }
+}
